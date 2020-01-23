@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- my font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <title>info kontrakan malang</title>
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">IK<span>mlg</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#">Property</a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">contact</a>
+                    <a class="nav-item nav-link" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">info <span>kontrakan <br> malang</span>raya</h1>
+            <p class="lead">This is a modified jumbotron <br> that occupies the entire</p>
+        </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- property -->
+    <div class="container">
+        <div class="row property">
+            <div class="col-lg-4">
+                <p>search</p>
+
+
+                <!-- form search -->
+                <form class="cari">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+
+                <!-- card filter-->
+                <div class="card filter-house" style="width: 22rem;">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group mb-4">
+                                <label for="house">House</label>
+                                <input type="text" class="form-control" id="house" placeholder="search house">
+                            </div>
+                            <div class="form-row mb-4">
+                                <div class="form-group col-md">
+                                    <label for="room">Room</label>
+                                    <select id="room" class="form-control">
+                                        <option selected></option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md">
+                                    <label for="bathroom">Bathroom</label>
+                                    <select id="bathroom" class="form-control">
+                                        <option selected></option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md">
+                                    <label for="car">Car</label>
+                                    <select id="car" class="form-control">
+                                        <option selected></option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-search">search</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- price -->
+                <div class="card" style="width: 22rem;">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="price">Price</label>
+                                <input type="range" class="form-control-range mt-2 mb-2" id="price">
+                                <span class="bound_label float-left">Rp. 4.000.000</span>
+                                <span class="bound_label float-right">Rp. 40.000.000</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <p class="float-left">property</p>
+                <div class="dropdown float-right">
+                    <button class="btn dropdown-toggle pt-0" id="poscietytomboldropdown" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        sort by
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="poscietytomboldropdown">
+                        <a class="dropdown-item" href="#">termurah</a>
+                        <a class="dropdown-item" href="#">sedang</a>
+                        <a class="dropdown-item" href="#">termahal</a>
+                    </div>
+                </div>
+
+                <!-- card property -->
+                <div class="card-property">
+                    <div class="card mb-5" style="max-width: 100%">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/bernard-hermant-602499-unsplash.jpg" class="card-img" alt="rumah tidar"
+                                    style="height:250px;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">villa bukit tidar</h5>
+                                    <p class="card-alamat"><a href="#">Jl.Candi IV C no.9 Karang Basuki,
+                                            Sukun, Malang</a></p>
+                                    <p class="card-text">Lebih mural jika sekamar isi 2 orang
+                                        kamar luas, parkir sangat luas dll.</p>
+                                    <div class="icon-rumah mb-1" style="display: flex;">
+                                        <img src="img/Icon_5.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2 mr-3">5 batroom</p>
+                                        <img src="img/Icon_28.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2 mr-3">2 bathroom</p>
+                                        <img src="img/car_icon-icons.com_63325.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2">2 car</p>
+                                    </div>
+                                    <p class="card-harga float-left">Rp. 25 jt <span>/year</span></p>
+                                    <button type="submit" class="btn btn-detail float-right mr-4">detail</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card mb-5" style="max-width: 100%">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/architecture-1836070_1280.jpg" class="card-img" alt="rumah tidar"
+                                    style="height:250px;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Green Land</h5>
+                                    <p class="card-alamat"><a href="#">Jl.Candi Panggung no.6 Karang soko, Malang</a>
+                                    </p>
+                                    <p class="card-text">Lebih mural jika sekamar isi 2 orang
+                                        kamar luas, parkir sangat luas dll.</p>
+                                    <div class="icon-rumah mb-1" style="display: flex;">
+                                        <img src="img/Icon_5.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2 mr-3">2 batroom</p>
+                                        <img src="img/Icon_28.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2 mr-3">1 bathroom</p>
+                                        <img src="img/car_icon-icons.com_63325.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2">1 car</p>
+                                    </div>
+                                    <p class="card-harga float-left">Rp. 18 jt <span>/year</span></p>
+                                    <button type="submit" class="btn btn-detail float-right mr-4">detail</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card mb-5" style="max-width: 100%">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/joel-filipe-166058-unsplash.jpg" class="card-img" alt="rumah tidar"
+                                    style="height:250px;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Griya Shanta</h5>
+                                    <p class="card-alamat"><a href="#">Jl.Tlogomas IV B no.9 malang</a></p>
+                                    <p class="card-text">Lebih mural jika sekamar isi 2 orang
+                                        kamar luas, parkir sangat luas dll.</p>
+                                    <div class="icon-rumah mb-1" style="display: flex;">
+                                        <img src="img/Icon_5.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2 mr-3">3 batroom</p>
+                                        <img src="img/Icon_28.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2 mr-3">2 bathroom</p>
+                                        <img src="img/car_icon-icons.com_63325.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2">1 car</p>
+                                    </div>
+                                    <p class="card-harga float-left">Rp. 30 jt <span>/year</span></p>
+                                    <button type="submit" class="btn btn-detail float-right mr-4">detail</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card mb-5" style="max-width: 100%">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/rumah.jpg" class="card-img" alt="rumah tidar" style="height:250px;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bukit Cemara Tidar</h5>
+                                    <p class="card-alamat"><a href="#">Jl.Candi IV C no.9 Karang Basuki,
+                                            Sukun, Malang</a></p>
+                                    <p class="card-text">Lebih mural jika sekamar isi 2 orang
+                                        kamar luas, parkir sangat luas dll.</p>
+                                    <div class="icon-rumah mb-1" style="display: flex;">
+                                        <img src="img/Icon_5.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2 mr-3">4 batroom</p>
+                                        <img src="img/Icon_28.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2 mr-3">2 bathroom</p>
+                                        <img src="img/car_icon-icons.com_63325.svg" class="float-left" alt=""
+                                            style="width: 25px; height: 25px;">
+                                        <p class="ml-2">2 car</p>
+                                    </div>
+                                    <p class="card-harga float-left">Rp. 35 jt <span>/year</span></p>
+                                    <button type="submit" class="btn btn-detail float-right mr-4">detail</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir property -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>Kontrakan malang</h4>
+                    <p>arah trirto 24</p>
+                    <p>42 market tirto </p>
+                    <p>Malang</p>
+                    <span>+62 8533 0232 466</span>
+                    <p style="color: #E87D30;">www.kontrakanmalang.com</p>
+                </div>
+                <div class="col">
+                    <h4>home</h4>
+                    <p>lorem insum</p>
+                    <p>Contrary to popular</p>
+                    <p>popular</p>
+                    <p>Yogyakarta</p>
+                </div>
+                <div class="col">
+                    <h4>about us</h4>
+                    <p>lorem insum</p>
+                    <p>over 2000 years old</p>
+                    <p>Contrary to popular</p>
+                </div>
+                <div class="col">
+                    <h4>service</h4>
+                    <p>Richard McClintock</p>
+                    <p>over 2000 years old</p>
+                    <p>batu city</p>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

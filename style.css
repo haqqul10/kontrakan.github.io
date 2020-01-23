@@ -1,0 +1,209 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    color: #F1AD80;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #324559 !important;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url('img/brandon-griggs-82205-unsplash.jpg');
+    background-size: cover;
+    height: 600px;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+}
+
+.display-4 {
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300px;
+    letter-spacing: 4px;
+    line-height: 49px;
+}
+
+.display-4 span {
+    font-weight: 600;
+    color: #F1AD80;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+/* property */
+
+.property {
+    margin-top: 65px;
+}
+
+.property p,
+.btn,
+.dropdown-item {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #3C3C3C;
+    font-weight: 300;
+}
+
+/* filter */
+.cari .form-control {
+    box-shadow: 0px 2px 3px #f1f2f6;
+}
+
+.filter-house {
+    margin-bottom: 35px;
+    margin-top: 35px;
+    box-shadow: 0px 2px 3px #f1f2f6;
+}
+
+.filter-house .btn {
+    background-color: #E87D30;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 400;
+}
+
+.card-property .card {
+    box-shadow: 0px 2px 3px #f1f2f6;
+    margin-bottom: 100px;
+}
+
+
+/* card-property */
+.card-property {
+    clear: both;
+}
+
+.card-body .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #040715;
+}
+
+.card-body .card-text {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: none;
+    color: #040715;
+    letter-spacing: 0.3px;
+}
+
+.card-body .card-alamat a {
+    text-decoration: none;
+    color: #040715;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+}
+
+.icon-rumah p {
+    font-size: 14px;
+}
+
+.card-body .card-harga {
+    font-size: 20px;
+    font-weight: 600;
+    color: #040715;
+}
+
+.card-harga span {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.btn-detail {
+    background-color: #E87D30;
+    color: white;
+    border-radius: 50px;
+    width: 100px;
+}
+
+.pagination{
+    margin-top: 100px;
+}
+
+.page-link{
+    border: none !important;
+    margin-right: 20px;
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    color: white;
+    padding-top: 40px;
+    background-color: #324559;
+}
+
+footer h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer p{
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+footer a:hover{
+    color: #040715;
+}
+/* desktop */
+@media (min-width: 992px) {
+
+    /* navbar */
+    .navbar-brand {
+        font-size: 40px;
+        font-weight: bold;
+        color: white !important;
+    }
+
+    .nav-item {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-left: 20px;
+        letter-spacing: 1px;
+        color: #324559 !important;
+    }
+
+    /* jumbotron */
+    .jumbotron {
+        margin-top: -90px;
+        text-align: left;
+    }
+}
